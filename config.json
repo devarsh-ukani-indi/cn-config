@@ -1,0 +1,3849 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-09-15T13:33:41.304Z",
+  "app": {
+    "forceUpdate": {
+      "enabled": false,
+      "android": {
+        "minSupportedVersion": "1.0.0",
+        "latestVersion": "1.0.0",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.devarshukani.clearnews",
+        "message": "A new version of ClearNews is available on the Play Store. Please update to continue."
+      },
+      "ios": {
+        "minSupportedVersion": "1.0.0",
+        "latestVersion": "1.0.0",
+        "storeUrl": "https://apps.apple.com/app/id000000000",
+        "message": "A new version of ClearNews is available on the App Store. Please update to continue."
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "top-stories",
+      "name": "Top Stories",
+      "order": 0,
+      "enabled": true
+    },
+    {
+      "id": "world",
+      "name": "World",
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "politics",
+      "name": "Politics",
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "children": [
+        {
+          "id": "finance.markets",
+          "name": "Markets"
+        },
+        {
+          "id": "finance.crypto",
+          "name": "Crypto"
+        },
+        {
+          "id": "finance.personal",
+          "name": "Personal Finance"
+        },
+        {
+          "id": "finance.economy",
+          "name": "Economy"
+        }
+      ],
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "children": [
+        {
+          "id": "technology.ai",
+          "name": "AI"
+        },
+        {
+          "id": "technology.gadgets",
+          "name": "Gadgets"
+        }
+      ],
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "order": 6,
+      "enabled": true
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "order": 7,
+      "enabled": true
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "children": [
+        {
+          "id": "sports.football",
+          "name": "Football"
+        },
+        {
+          "id": "sports.cricket",
+          "name": "Cricket"
+        },
+        {
+          "id": "sports.basketball",
+          "name": "Basketball"
+        },
+        {
+          "id": "sports.tennis",
+          "name": "Tennis"
+        },
+        {
+          "id": "sports.f1",
+          "name": "Formula 1"
+        },
+        {
+          "id": "sports.golf",
+          "name": "Golf"
+        },
+        {
+          "id": "sports.nfl",
+          "name": "NFL"
+        },
+        {
+          "id": "sports.baseball",
+          "name": "Baseball"
+        },
+        {
+          "id": "sports.hockey",
+          "name": "Hockey"
+        },
+        {
+          "id": "sports.rugby",
+          "name": "Rugby"
+        }
+      ],
+      "order": 8,
+      "enabled": true
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "order": 9,
+      "enabled": true
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "order": 10,
+      "enabled": true
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "order": 11,
+      "enabled": true
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "order": 12,
+      "enabled": true
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "order": 13,
+      "enabled": true
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "order": 14,
+      "enabled": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "fourohfour",
+      "name": "404 Media",
+      "siteUrl": "https://www.404media.co",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "fourohfour-technology-0",
+          "url": "https://www.404media.co/rss/",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 0
+    },
+    {
+      "id": "9to5mac",
+      "name": "9to5Mac",
+      "siteUrl": "https://9to5mac.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "9to5mac-technology.gadgets-0",
+          "url": "https://9to5mac.com/feed/",
+          "label": "All",
+          "topicId": "technology.gadgets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "abc-au",
+      "name": "ABC News (AU)",
+      "siteUrl": "https://www.abc.net.au",
+      "country": "AU",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "abc-au-top-stories-0",
+          "url": "https://www.abc.net.au/news/feed/2942460/rss.xml",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "abcnews-us",
+      "name": "ABC News (US)",
+      "siteUrl": "https://abcnews.go.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "abcnews-us-top-stories-0",
+          "url": "https://abcnews.go.com/abcnews/topstories",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "siteUrl": "https://www.aljazeera.com",
+      "country": "QA",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "aljazeera-world-0",
+          "url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "label": "All",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "androidauthority",
+      "name": "Android Authority",
+      "siteUrl": "https://www.androidauthority.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "androidauthority-technology.gadgets-0",
+          "url": "https://www.androidauthority.com/feed/",
+          "label": "All",
+          "topicId": "technology.gadgets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "androidpolice",
+      "name": "Android Police",
+      "siteUrl": "https://www.androidpolice.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "androidpolice-technology.gadgets-0",
+          "url": "https://www.androidpolice.com/feed/",
+          "label": "All",
+          "topicId": "technology.gadgets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 6
+    },
+    {
+      "id": "ars-technica",
+      "name": "Ars Technica",
+      "siteUrl": "https://arstechnica.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "ars-technica-technology-0",
+          "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "ars-technica-technology.gadgets-1",
+          "url": "https://feeds.arstechnica.com/arstechnica/gadgets",
+          "label": "Gadgets",
+          "topicId": "technology.gadgets",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "ars-technica-science-2",
+          "url": "https://feeds.arstechnica.com/arstechnica/science",
+          "label": "Science",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 7
+    },
+    {
+      "id": "ap-gn",
+      "name": "Associated Press (via Google News)",
+      "siteUrl": "https://apnews.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "ap-gn-top-stories-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:apnews.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 8
+    },
+    {
+      "id": "atlasobscura",
+      "name": "Atlas Obscura",
+      "siteUrl": "https://www.atlasobscura.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "atlasobscura-travel-0",
+          "url": "https://www.atlasobscura.com/feeds/latest",
+          "label": "All",
+          "topicId": "travel",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 9
+    },
+    {
+      "id": "autosport",
+      "name": "Autosport",
+      "siteUrl": "https://www.autosport.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "autosport-sports.f1-0",
+          "url": "https://www.autosport.com/rss/f1/news/",
+          "label": "F1",
+          "topicId": "sports.f1",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 10
+    },
+    {
+      "id": "axios",
+      "name": "Axios",
+      "siteUrl": "https://www.axios.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "axios-top-stories-0",
+          "url": "https://api.axios.com/feed/",
+          "label": "All",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 11
+    },
+    {
+      "id": "barrons-gn",
+      "name": "Barron's (via Google News)",
+      "siteUrl": "https://www.barrons.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "barrons-gn-finance-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:barrons.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Finance",
+          "topicId": "finance",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 12
+    },
+    {
+      "id": "bbc",
+      "name": "BBC News",
+      "siteUrl": "https://www.bbc.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "bbc-world-0",
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-top-stories-1",
+          "url": "https://feeds.bbci.co.uk/news/rss.xml",
+          "label": "Top Stories",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-business-2",
+          "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-entertainment-3",
+          "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+          "label": "Entertainment",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-health-4",
+          "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+          "label": "Health",
+          "topicId": "health",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-politics-5",
+          "url": "https://feeds.bbci.co.uk/news/politics/rss.xml",
+          "label": "Politics",
+          "topicId": "politics",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-environment-6",
+          "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+          "label": "Science & Environment",
+          "topicId": "environment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 13
+    },
+    {
+      "id": "bbc-sport",
+      "name": "BBC Sport",
+      "siteUrl": "https://www.bbc.com/sport",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "bbc-sport-sports-0",
+          "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+          "label": "All",
+          "topicId": "sports",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-sport-sports.football-1",
+          "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+          "label": "Football",
+          "topicId": "sports.football",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-sport-sports.cricket-2",
+          "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
+          "label": "Cricket",
+          "topicId": "sports.cricket",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-sport-sports.tennis-3",
+          "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
+          "label": "Tennis",
+          "topicId": "sports.tennis",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-sport-sports.f1-4",
+          "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+          "label": "Formula 1",
+          "topicId": "sports.f1",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-sport-sports.golf-5",
+          "url": "https://feeds.bbci.co.uk/sport/golf/rss.xml",
+          "label": "Golf",
+          "topicId": "sports.golf",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bbc-sport-sports.rugby-6",
+          "url": "https://feeds.bbci.co.uk/sport/rugby-union/rss.xml",
+          "label": "Rugby Union",
+          "topicId": "sports.rugby",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 14
+    },
+    {
+      "id": "billboard",
+      "name": "Billboard",
+      "siteUrl": "https://www.billboard.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "billboard-entertainment-0",
+          "url": "https://www.billboard.com/feed/",
+          "label": "All",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 15
+    },
+    {
+      "id": "bitcoinmag",
+      "name": "Bitcoin Magazine",
+      "siteUrl": "https://bitcoinmagazine.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "bitcoinmag-finance.crypto-0",
+          "url": "https://bitcoinmagazine.com/feed",
+          "label": "Bitcoin",
+          "topicId": "finance.crypto",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 16
+    },
+    {
+      "id": "br-gn",
+      "name": "Bleacher Report (via Google News)",
+      "siteUrl": "https://bleacherreport.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "br-gn-sports-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:bleacherreport.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "All",
+          "topicId": "sports",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 17
+    },
+    {
+      "id": "bleepingcomputer",
+      "name": "Bleeping Computer",
+      "siteUrl": "https://www.bleepingcomputer.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "bleepingcomputer-technology-0",
+          "url": "https://www.bleepingcomputer.com/feed/",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 18
+    },
+    {
+      "id": "bloomberg-gn",
+      "name": "Bloomberg (via Google News)",
+      "siteUrl": "https://www.bloomberg.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "bloomberg-gn-business-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 19
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg (Yahoo)",
+      "siteUrl": "https://www.bloomberg.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "bloomberg-business-0",
+          "url": "https://feeds.bloomberg.com/markets/news.rss",
+          "label": "Markets",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bloomberg-technology-1",
+          "url": "https://feeds.bloomberg.com/technology/news.rss",
+          "label": "Technology",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bloomberg-politics-2",
+          "url": "https://feeds.bloomberg.com/politics/news.rss",
+          "label": "Politics",
+          "topicId": "politics",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "bloomberg-finance.markets-3",
+          "url": "https://feeds.bloomberg.com/markets/news.rss",
+          "label": "Markets",
+          "topicId": "finance.markets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 20
+    },
+    {
+      "id": "businessinsider",
+      "name": "Business Insider",
+      "siteUrl": "https://www.businessinsider.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "businessinsider-business-0",
+          "url": "https://www.businessinsider.com/rss",
+          "label": "All",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 21
+    },
+    {
+      "id": "carbonbrief",
+      "name": "Carbon Brief",
+      "siteUrl": "https://www.carbonbrief.org",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "carbonbrief-environment-0",
+          "url": "https://www.carbonbrief.org/feed/",
+          "label": "All",
+          "topicId": "environment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 22
+    },
+    {
+      "id": "cbc",
+      "name": "CBC News",
+      "siteUrl": "https://www.cbc.ca",
+      "country": "CA",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "cbc-world-0",
+          "url": "https://www.cbc.ca/webfeed/rss/rss-world",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "cbc-top-stories-1",
+          "url": "https://www.cbc.ca/webfeed/rss/rss-topstories",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 23
+    },
+    {
+      "id": "cbsnews",
+      "name": "CBS News",
+      "siteUrl": "https://www.cbsnews.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "cbsnews-top-stories-0",
+          "url": "https://www.cbsnews.com/latest/rss/main",
+          "label": "Main",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "cbsnews-world-1",
+          "url": "https://www.cbsnews.com/latest/rss/world",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 24
+    },
+    {
+      "id": "cbssports",
+      "name": "CBS Sports",
+      "siteUrl": "https://www.cbssports.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "cbssports-sports-0",
+          "url": "https://www.cbssports.com/rss/headlines/",
+          "label": "All",
+          "topicId": "sports",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 25
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "siteUrl": "https://www.cnbc.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "cnbc-business-0",
+          "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+          "label": "Top",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "cnbc-finance.markets-1",
+          "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+          "label": "Markets",
+          "topicId": "finance.markets",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "cnbc-finance.economy-2",
+          "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+          "label": "Economy",
+          "topicId": "finance.economy",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 26
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "siteUrl": "https://www.cnn.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "cnn-top-stories-0",
+          "url": "http://rss.cnn.com/rss/edition.rss",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "cnn-world-1",
+          "url": "http://rss.cnn.com/rss/edition_world.rss",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 27
+    },
+    {
+      "id": "coindesk",
+      "name": "CoinDesk",
+      "siteUrl": "https://www.coindesk.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "coindesk-business-0",
+          "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "label": "Crypto",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "coindesk-finance.crypto-1",
+          "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "label": "Crypto",
+          "topicId": "finance.crypto",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 28
+    },
+    {
+      "id": "cointelegraph",
+      "name": "Cointelegraph",
+      "siteUrl": "https://cointelegraph.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "cointelegraph-business-0",
+          "url": "https://cointelegraph.com/rss",
+          "label": "Crypto",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "cointelegraph-finance.crypto-1",
+          "url": "https://cointelegraph.com/rss",
+          "label": "Crypto",
+          "topicId": "finance.crypto",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 29
+    },
+    {
+      "id": "collider",
+      "name": "Collider",
+      "siteUrl": "https://collider.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "collider-entertainment-0",
+          "url": "https://collider.com/feed/",
+          "label": "All",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 30
+    },
+    {
+      "id": "colossal",
+      "name": "Colossal",
+      "siteUrl": "https://www.thisiscolossal.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "colossal-design-0",
+          "url": "https://www.thisiscolossal.com/feed/",
+          "label": "All",
+          "topicId": "design",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 31
+    },
+    {
+      "id": "consequence",
+      "name": "Consequence",
+      "siteUrl": "https://consequence.net",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "consequence-entertainment-0",
+          "url": "https://consequence.net/feed/",
+          "label": "All",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 32
+    },
+    {
+      "id": "core77",
+      "name": "Core77",
+      "siteUrl": "https://www.core77.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "core77-design-0",
+          "url": "https://www.core77.com/feed",
+          "label": "All",
+          "topicId": "design",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 33
+    },
+    {
+      "id": "cricbuzz-gn",
+      "name": "Cricbuzz (via Google News)",
+      "siteUrl": "https://www.cricbuzz.com",
+      "country": "IN",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "cricbuzz-gn-sports.cricket-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:cricbuzz.com&hl=en-IN&gl=IN&ceid=IN:en",
+          "label": "Cricket",
+          "topicId": "sports.cricket",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 34
+    },
+    {
+      "id": "deadline",
+      "name": "Deadline",
+      "siteUrl": "https://deadline.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "deadline-entertainment-0",
+          "url": "https://deadline.com/feed/",
+          "label": "All",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 35
+    },
+    {
+      "id": "decrypt",
+      "name": "Decrypt",
+      "siteUrl": "https://decrypt.co",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "decrypt-finance.crypto-0",
+          "url": "https://decrypt.co/feed",
+          "label": "Crypto",
+          "topicId": "finance.crypto",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 36
+    },
+    {
+      "id": "designmilk",
+      "name": "Design Milk",
+      "siteUrl": "https://design-milk.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "designmilk-design-0",
+          "url": "https://design-milk.com/feed/",
+          "label": "All",
+          "topicId": "design",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 37
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "siteUrl": "https://www.dw.com",
+      "country": "DE",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "dw-world-0",
+          "url": "https://rss.dw.com/rdf/rss-en-all",
+          "label": "Top",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 38
+    },
+    {
+      "id": "dezeen",
+      "name": "Dezeen",
+      "siteUrl": "https://www.dezeen.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "dezeen-design-0",
+          "url": "https://www.dezeen.com/feed/",
+          "label": "All",
+          "topicId": "design",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 39
+    },
+    {
+      "id": "earthsky",
+      "name": "EarthSky",
+      "siteUrl": "https://earthsky.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "earthsky-science-0",
+          "url": "https://earthsky.org/feed/",
+          "label": "All",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 40
+    },
+    {
+      "id": "eater",
+      "name": "Eater",
+      "siteUrl": "https://www.eater.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "eater-food-0",
+          "url": "https://www.eater.com/rss/index.xml",
+          "label": "All",
+          "topicId": "food",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 41
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "siteUrl": "https://www.engadget.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "engadget-technology-0",
+          "url": "https://www.engadget.com/rss.xml",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 42
+    },
+    {
+      "id": "espn-nba-gn",
+      "name": "ESPN NBA (via Google News)",
+      "siteUrl": "https://www.espn.com/nba",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "espn-nba-gn-sports.basketball-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+NBA+basketball&hl=en-US&gl=US&ceid=US:en",
+          "label": "NBA",
+          "topicId": "sports.basketball",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 43
+    },
+    {
+      "id": "cricinfo",
+      "name": "ESPNcricinfo",
+      "siteUrl": "https://www.espncricinfo.com",
+      "country": "IN",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "cricinfo-sports.cricket-0",
+          "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml",
+          "label": "All",
+          "topicId": "sports.cricket",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 44
+    },
+    {
+      "id": "eurogamer",
+      "name": "Eurogamer",
+      "siteUrl": "https://www.eurogamer.net",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "eurogamer-gaming-0",
+          "url": "https://www.eurogamer.net/feed",
+          "label": "All",
+          "topicId": "gaming",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 45
+    },
+    {
+      "id": "euronews",
+      "name": "Euronews",
+      "siteUrl": "https://www.euronews.com",
+      "country": "FR",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "euronews-world-0",
+          "url": "https://www.euronews.com/rss?level=theme&name=news",
+          "label": "News",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 46
+    },
+    {
+      "id": "ft-gn",
+      "name": "Financial Times (via Google News)",
+      "siteUrl": "https://www.ft.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "ft-gn-business-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:ft.com&hl=en-GB&gl=GB&ceid=GB:en",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "ft-gn-finance-1",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:ft.com&hl=en-GB&gl=GB&ceid=GB:en",
+          "label": "Finance",
+          "topicId": "finance",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 47
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times (Yahoo)",
+      "siteUrl": "https://www.ft.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "ft-business-0",
+          "url": "https://www.ft.com/rss/home",
+          "label": "Home",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 48
+    },
+    {
+      "id": "finextra",
+      "name": "Finextra",
+      "siteUrl": "https://www.finextra.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "finextra-finance-0",
+          "url": "https://www.finextra.com/rss/headlines.aspx",
+          "label": "Fintech",
+          "topicId": "finance",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 49
+    },
+    {
+      "id": "forbes",
+      "name": "Forbes",
+      "siteUrl": "https://www.forbes.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "forbes-business-0",
+          "url": "https://www.forbes.com/business/feed/",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 50
+    },
+    {
+      "id": "fortune",
+      "name": "Fortune",
+      "siteUrl": "https://fortune.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "fortune-business-0",
+          "url": "https://fortune.com/feed/",
+          "label": "All",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 51
+    },
+    {
+      "id": "france24",
+      "name": "France 24",
+      "siteUrl": "https://www.france24.com",
+      "country": "FR",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "france24-world-0",
+          "url": "https://www.france24.com/en/rss",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 52
+    },
+    {
+      "id": "gamespot",
+      "name": "GameSpot",
+      "siteUrl": "https://www.gamespot.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "gamespot-gaming-0",
+          "url": "https://www.gamespot.com/feeds/news/",
+          "label": "News",
+          "topicId": "gaming",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 53
+    },
+    {
+      "id": "gamesradar",
+      "name": "GamesRadar",
+      "siteUrl": "https://www.gamesradar.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "gamesradar-gaming-0",
+          "url": "https://www.gamesradar.com/rss/",
+          "label": "All",
+          "topicId": "gaming",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 54
+    },
+    {
+      "id": "gizmodo",
+      "name": "Gizmodo",
+      "siteUrl": "https://gizmodo.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "gizmodo-technology-0",
+          "url": "https://gizmodo.com/rss",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 55
+    },
+    {
+      "id": "goal-gn",
+      "name": "Goal.com (via Google News)",
+      "siteUrl": "https://www.goal.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "goal-gn-sports.football-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:goal.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Football",
+          "topicId": "sports.football",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 56
+    },
+    {
+      "id": "golf-gn",
+      "name": "Golf (via Google News)",
+      "siteUrl": "https://www.pgatour.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "golf-gn-sports.golf-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+PGA+golf&hl=en-US&gl=US&ceid=US:en",
+          "label": "Golf",
+          "topicId": "sports.golf",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 57
+    },
+    {
+      "id": "googlenews",
+      "name": "Google News",
+      "siteUrl": "https://news.google.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "googlenews-top-stories-0",
+          "url": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 58
+    },
+    {
+      "id": "grist",
+      "name": "Grist",
+      "siteUrl": "https://grist.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "grist-environment-0",
+          "url": "https://grist.org/feed/",
+          "label": "All",
+          "topicId": "environment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 59
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "siteUrl": "https://news.ycombinator.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "hackernews-technology-0",
+          "url": "https://hnrss.org/frontpage",
+          "label": "Front page",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 60
+    },
+    {
+      "id": "ign",
+      "name": "IGN",
+      "siteUrl": "https://www.ign.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "ign-gaming-0",
+          "url": "https://feeds.ign.com/ign/all",
+          "label": "All",
+          "topicId": "gaming",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 61
+    },
+    {
+      "id": "insideclimate",
+      "name": "Inside Climate News",
+      "siteUrl": "https://insideclimatenews.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "insideclimate-environment-0",
+          "url": "https://insideclimatenews.org/feed/",
+          "label": "All",
+          "topicId": "environment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 62
+    },
+    {
+      "id": "investing-gn",
+      "name": "Investing.com (via Google News)",
+      "siteUrl": "https://www.investing.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "investing-gn-finance.markets-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+stock+market+markets&hl=en-US&gl=US&ceid=US:en",
+          "label": "Markets",
+          "topicId": "finance.markets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 63
+    },
+    {
+      "id": "kiplinger-gn",
+      "name": "Kiplinger (via Google News)",
+      "siteUrl": "https://www.kiplinger.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "kiplinger-gn-finance.personal-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:kiplinger.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Personal Finance",
+          "topicId": "finance.personal",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 64
+    },
+    {
+      "id": "kotaku",
+      "name": "Kotaku",
+      "siteUrl": "https://kotaku.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "kotaku-gaming-0",
+          "url": "https://kotaku.com/rss",
+          "label": "All",
+          "topicId": "gaming",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 65
+    },
+    {
+      "id": "krebs",
+      "name": "Krebs on Security",
+      "siteUrl": "https://krebsonsecurity.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "krebs-technology-0",
+          "url": "https://krebsonsecurity.com/feed/",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 66
+    },
+    {
+      "id": "livescience",
+      "name": "Live Science",
+      "siteUrl": "https://www.livescience.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "livescience-science-0",
+          "url": "https://www.livescience.com/feeds/all",
+          "label": "All",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 67
+    },
+    {
+      "id": "latimes",
+      "name": "Los Angeles Times",
+      "siteUrl": "https://www.latimes.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "latimes-top-stories-0",
+          "url": "https://www.latimes.com/world/rss2.0.xml",
+          "label": "World",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 68
+    },
+    {
+      "id": "macrumors",
+      "name": "MacRumors",
+      "siteUrl": "https://www.macrumors.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "macrumors-technology.gadgets-0",
+          "url": "https://feeds.macrumors.com/MacRumors-All",
+          "label": "All",
+          "topicId": "technology.gadgets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 69
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "siteUrl": "https://www.marketwatch.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "marketwatch-business-0",
+          "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+          "label": "Top",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "marketwatch-finance.markets-1",
+          "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse",
+          "label": "Markets",
+          "topicId": "finance.markets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 70
+    },
+    {
+      "id": "mashable",
+      "name": "Mashable",
+      "siteUrl": "https://mashable.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "mashable-technology-0",
+          "url": "https://mashable.com/feeds/rss/all",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 71
+    },
+    {
+      "id": "medpagetoday",
+      "name": "MedPage Today",
+      "siteUrl": "https://www.medpagetoday.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "medpagetoday-health-0",
+          "url": "https://www.medpagetoday.com/rss/headlines.xml",
+          "label": "All",
+          "topicId": "health",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 72
+    },
+    {
+      "id": "techreview",
+      "name": "MIT Technology Review",
+      "siteUrl": "https://www.technologyreview.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "techreview-technology-0",
+          "url": "https://www.technologyreview.com/feed/",
+          "label": "Feed",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 73
+    },
+    {
+      "id": "mlbtr",
+      "name": "MLB Trade Rumors",
+      "siteUrl": "https://www.mlbtraderumors.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "mlbtr-sports.baseball-0",
+          "url": "https://www.mlbtraderumors.com/feed",
+          "label": "MLB",
+          "topicId": "sports.baseball",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 74
+    },
+    {
+      "id": "mongabay",
+      "name": "Mongabay",
+      "siteUrl": "https://news.mongabay.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "mongabay-environment-0",
+          "url": "https://news.mongabay.com/feed/",
+          "label": "All",
+          "topicId": "environment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 75
+    },
+    {
+      "id": "motorsport",
+      "name": "Motorsport.com",
+      "siteUrl": "https://www.motorsport.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "motorsport-sports.f1-0",
+          "url": "https://www.motorsport.com/rss/f1/news/",
+          "label": "F1",
+          "topicId": "sports.f1",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 76
+    },
+    {
+      "id": "nasa",
+      "name": "NASA",
+      "siteUrl": "https://www.nasa.gov",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "nasa-science-0",
+          "url": "https://www.nasa.gov/news-release/feed/",
+          "label": "Breaking",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 77
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "siteUrl": "https://www.nature.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "nature-science-0",
+          "url": "https://www.nature.com/nature.rss",
+          "label": "Latest",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 78
+    },
+    {
+      "id": "nbcnews",
+      "name": "NBC News",
+      "siteUrl": "https://www.nbcnews.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "nbcnews-world-0",
+          "url": "https://feeds.nbcnews.com/nbcnews/public/world",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 79
+    },
+    {
+      "id": "ndtv",
+      "name": "NDTV",
+      "siteUrl": "https://www.ndtv.com",
+      "country": "IN",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "ndtv-top-stories-0",
+          "url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 80
+    },
+    {
+      "id": "nerdwallet",
+      "name": "NerdWallet",
+      "siteUrl": "https://www.nerdwallet.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "nerdwallet-finance.personal-0",
+          "url": "https://www.nerdwallet.com/blog/feed/",
+          "label": "All",
+          "topicId": "finance.personal",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 81
+    },
+    {
+      "id": "npr",
+      "name": "NPR",
+      "siteUrl": "https://www.npr.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "npr-top-stories-0",
+          "url": "https://feeds.npr.org/1001/rss.xml",
+          "label": "News",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "npr-world-1",
+          "url": "https://feeds.npr.org/1004/rss.xml",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "npr-health-2",
+          "url": "https://feeds.npr.org/1128/rss.xml",
+          "label": "Health",
+          "topicId": "health",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "npr-politics-3",
+          "url": "https://feeds.npr.org/1014/rss.xml",
+          "label": "Politics",
+          "topicId": "politics",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 82
+    },
+    {
+      "id": "nyt",
+      "name": "NYT",
+      "siteUrl": "https://www.nytimes.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "nyt-world-0",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-top-stories-1",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+          "label": "Home",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-business-2",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-science-3",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
+          "label": "Science",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-entertainment-4",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml",
+          "label": "Arts",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-health-5",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
+          "label": "Health",
+          "topicId": "health",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-politics-6",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+          "label": "Politics",
+          "topicId": "politics",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-travel-7",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/Travel.xml",
+          "label": "Travel",
+          "topicId": "travel",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-technology-8",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+          "label": "Technology",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "nyt-finance.economy-9",
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml",
+          "label": "Economy",
+          "topicId": "finance.economy",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 83
+    },
+    {
+      "id": "pbs",
+      "name": "PBS NewsHour",
+      "siteUrl": "https://www.pbs.org/newshour",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "pbs-top-stories-0",
+          "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+          "label": "All",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 84
+    },
+    {
+      "id": "pcgamer",
+      "name": "PC Gamer",
+      "siteUrl": "https://www.pcgamer.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "pcgamer-gaming-0",
+          "url": "https://www.pcgamer.com/rss/",
+          "label": "All",
+          "topicId": "gaming",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 85
+    },
+    {
+      "id": "physorg",
+      "name": "Phys.org",
+      "siteUrl": "https://phys.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "physorg-science-0",
+          "url": "https://phys.org/rss-feed/",
+          "label": "All",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 86
+    },
+    {
+      "id": "pitchfork",
+      "name": "Pitchfork",
+      "siteUrl": "https://pitchfork.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "pitchfork-entertainment-0",
+          "url": "https://pitchfork.com/rss/news/",
+          "label": "All",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 87
+    },
+    {
+      "id": "polygon",
+      "name": "Polygon",
+      "siteUrl": "https://www.polygon.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "polygon-gaming-0",
+          "url": "https://www.polygon.com/rss/index.xml",
+          "label": "All",
+          "topicId": "gaming",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 88
+    },
+    {
+      "id": "pft",
+      "name": "ProFootballTalk (NBC)",
+      "siteUrl": "https://www.nbcsports.com/nfl/profootballtalk",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "pft-sports.nfl-0",
+          "url": "https://profootballtalk.nbcsports.com/feed/",
+          "label": "NFL",
+          "topicId": "sports.nfl",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 89
+    },
+    {
+      "id": "propublica",
+      "name": "ProPublica",
+      "siteUrl": "https://www.propublica.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "propublica-politics-0",
+          "url": "https://www.propublica.org/feeds/propublica/main",
+          "label": "All",
+          "topicId": "politics",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 90
+    },
+    {
+      "id": "quanta",
+      "name": "Quanta Magazine",
+      "siteUrl": "https://www.quantamagazine.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "quanta-science-0",
+          "url": "https://www.quantamagazine.org/feed/",
+          "label": "All",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 91
+    },
+    {
+      "id": "restofworld",
+      "name": "Restofworld",
+      "siteUrl": "https://restofworld.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "restofworld-technology-0",
+          "url": "https://restofworld.org/feed/latest/",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 92
+    },
+    {
+      "id": "reuters-gn",
+      "name": "Reuters (via Google News)",
+      "siteUrl": "https://www.reuters.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "reuters-gn-world-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:reuters.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 93
+    },
+    {
+      "id": "rps",
+      "name": "Rock Paper Shotgun",
+      "siteUrl": "https://www.rockpapershotgun.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "rps-gaming-0",
+          "url": "https://www.rockpapershotgun.com/feed",
+          "label": "All",
+          "topicId": "gaming",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 94
+    },
+    {
+      "id": "rollingstone",
+      "name": "Rolling Stone",
+      "siteUrl": "https://www.rollingstone.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "rollingstone-entertainment-0",
+          "url": "https://www.rollingstone.com/feed/",
+          "label": "All",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 95
+    },
+    {
+      "id": "sbnation-nba",
+      "name": "SB Nation NBA",
+      "siteUrl": "https://www.sbnation.com/nba",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "sbnation-nba-sports.basketball-0",
+          "url": "https://www.sbnation.com/rss/nba/index.xml",
+          "label": "NBA",
+          "topicId": "sports.basketball",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 96
+    },
+    {
+      "id": "sbnation-nfl",
+      "name": "SB Nation NFL",
+      "siteUrl": "https://www.sbnation.com/nfl",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "sbnation-nfl-sports.nfl-0",
+          "url": "https://www.sbnation.com/rss/nfl/index.xml",
+          "label": "NFL",
+          "topicId": "sports.nfl",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 97
+    },
+    {
+      "id": "sbnation-nhl",
+      "name": "SB Nation NHL",
+      "siteUrl": "https://www.sbnation.com/nhl",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "sbnation-nhl-sports.hockey-0",
+          "url": "https://www.sbnation.com/rss/nhl/index.xml",
+          "label": "NHL",
+          "topicId": "sports.hockey",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 98
+    },
+    {
+      "id": "sciencedaily",
+      "name": "Science Daily",
+      "siteUrl": "https://www.sciencedaily.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "sciencedaily-science-0",
+          "url": "https://www.sciencedaily.com/rss/all.xml",
+          "label": "All",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 99
+    },
+    {
+      "id": "sciam",
+      "name": "Scientific American",
+      "siteUrl": "https://www.scientificamerican.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "sciam-science-0",
+          "url": "http://rss.sciam.com/ScientificAmerican-Global",
+          "label": "All",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 100
+    },
+    {
+      "id": "seekingalpha",
+      "name": "Seeking Alpha",
+      "siteUrl": "https://seekingalpha.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "seekingalpha-business-0",
+          "url": "https://seekingalpha.com/market_currents.xml",
+          "label": "Market",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "seekingalpha-finance.markets-1",
+          "url": "https://seekingalpha.com/market_currents.xml",
+          "label": "Market Currents",
+          "topicId": "finance.markets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 101
+    },
+    {
+      "id": "semafor",
+      "name": "Semafor",
+      "siteUrl": "https://www.semafor.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "semafor-top-stories-0",
+          "url": "https://www.semafor.com/rss.xml",
+          "label": "All",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 102
+    },
+    {
+      "id": "skynews",
+      "name": "Sky News",
+      "siteUrl": "https://news.sky.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "skynews-world-0",
+          "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "skynews-top-stories-1",
+          "url": "https://feeds.skynews.com/feeds/rss/home.xml",
+          "label": "Home",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "skynews-technology-2",
+          "url": "https://feeds.skynews.com/feeds/rss/technology.xml",
+          "label": "Tech",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "skynews-business-3",
+          "url": "https://feeds.skynews.com/feeds/rss/business.xml",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 103
+    },
+    {
+      "id": "skysports",
+      "name": "Sky Sports",
+      "siteUrl": "https://www.skysports.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "skysports-sports-0",
+          "url": "https://www.skysports.com/rss/12040",
+          "label": "News",
+          "topicId": "sports",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "skysports-sports.football-1",
+          "url": "https://www.skysports.com/rss/11095",
+          "label": "Football",
+          "topicId": "sports.football",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "skysports-sports.football-2",
+          "url": "https://www.skysports.com/rss/11661",
+          "label": "Premier League",
+          "topicId": "sports.football",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 104
+    },
+    {
+      "id": "slashdot",
+      "name": "Slashdot",
+      "siteUrl": "https://slashdot.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "slashdot-technology-0",
+          "url": "http://rss.slashdot.org/Slashdot/slashdotMain",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 105
+    },
+    {
+      "id": "smashing",
+      "name": "Smashing Magazine",
+      "siteUrl": "https://www.smashingmagazine.com",
+      "country": "DE",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "smashing-design-0",
+          "url": "https://www.smashingmagazine.com/feed/",
+          "label": "All",
+          "topicId": "design",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 106
+    },
+    {
+      "id": "scmp",
+      "name": "South China Morning Post",
+      "siteUrl": "https://www.scmp.com",
+      "country": "HK",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "scmp-world-0",
+          "url": "https://www.scmp.com/rss/91/feed",
+          "label": "All",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 107
+    },
+    {
+      "id": "space",
+      "name": "Space.com",
+      "siteUrl": "https://www.space.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "space-science-0",
+          "url": "https://www.space.com/feeds/all",
+          "label": "All",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 108
+    },
+    {
+      "id": "sportskeeda",
+      "name": "Sportskeeda",
+      "siteUrl": "https://www.sportskeeda.com",
+      "country": "IN",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "sportskeeda-sports.cricket-0",
+          "url": "https://www.sportskeeda.com/feed",
+          "label": "Cricket",
+          "topicId": "sports.cricket",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 109
+    },
+    {
+      "id": "statnews",
+      "name": "STAT",
+      "siteUrl": "https://www.statnews.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "statnews-health-0",
+          "url": "https://www.statnews.com/feed/",
+          "label": "All",
+          "topicId": "health",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 110
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "siteUrl": "https://techcrunch.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "techcrunch-technology-0",
+          "url": "https://techcrunch.com/feed/",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "techcrunch-technology.ai-1",
+          "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "label": "AI",
+          "topicId": "technology.ai",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 111
+    },
+    {
+      "id": "techradar",
+      "name": "TechRadar",
+      "siteUrl": "https://www.techradar.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "techradar-technology-0",
+          "url": "https://www.techradar.com/rss",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 112
+    },
+    {
+      "id": "tennis-gn",
+      "name": "Tennis (via Google News)",
+      "siteUrl": "https://www.tennis.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "tennis-gn-sports.tennis-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+tennis+ATP+OR+WTA&hl=en-US&gl=US&ceid=US:en",
+          "label": "Tennis",
+          "topicId": "sports.tennis",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 113
+    },
+    {
+      "id": "athletic-gn",
+      "name": "The Athletic (via Google News)",
+      "siteUrl": "https://www.nytimes.com/athletic",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "athletic-gn-sports-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:nytimes.com/athletic&hl=en-US&gl=US&ceid=US:en",
+          "label": "Sports",
+          "topicId": "sports",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 114
+    },
+    {
+      "id": "atlantic",
+      "name": "The Atlantic",
+      "siteUrl": "https://www.theatlantic.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "atlantic-top-stories-0",
+          "url": "https://www.theatlantic.com/feed/all/",
+          "label": "All",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 115
+    },
+    {
+      "id": "theblock",
+      "name": "The Block",
+      "siteUrl": "https://www.theblock.co",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "theblock-business-0",
+          "url": "https://www.theblock.co/rss.xml",
+          "label": "Crypto",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "theblock-finance.crypto-1",
+          "url": "https://www.theblock.co/rss.xml",
+          "label": "Crypto",
+          "topicId": "finance.crypto",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 116
+    },
+    {
+      "id": "theconversation",
+      "name": "The Conversation",
+      "siteUrl": "https://theconversation.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "theconversation-top-stories-0",
+          "url": "https://theconversation.com/global/articles.atom",
+          "label": "Articles",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 117
+    },
+    {
+      "id": "thediplomat",
+      "name": "The Diplomat",
+      "siteUrl": "https://thediplomat.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "thediplomat-world-0",
+          "url": "https://thediplomat.com/feed/",
+          "label": "All",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 118
+    },
+    {
+      "id": "economictimes",
+      "name": "The Economic Times",
+      "siteUrl": "https://economictimes.indiatimes.com",
+      "country": "IN",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "economictimes-business-0",
+          "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms",
+          "label": "Top",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 119
+    },
+    {
+      "id": "economist",
+      "name": "The Economist",
+      "siteUrl": "https://www.economist.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "economist-business-0",
+          "url": "https://www.economist.com/finance-and-economics/rss.xml",
+          "label": "Finance",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "economist-business-1",
+          "url": "https://www.economist.com/business/rss.xml",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "economist-finance.economy-2",
+          "url": "https://www.economist.com/finance-and-economics/rss.xml",
+          "label": "Economics",
+          "topicId": "finance.economy",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 120
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "siteUrl": "https://www.theguardian.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "guardian-world-0",
+          "url": "https://www.theguardian.com/world/rss",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-top-stories-1",
+          "url": "https://www.theguardian.com/international/rss",
+          "label": "Top Stories",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-business-2",
+          "url": "https://www.theguardian.com/uk/business/rss",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-science-3",
+          "url": "https://www.theguardian.com/science/rss",
+          "label": "Science",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-sports-4",
+          "url": "https://www.theguardian.com/uk/sport/rss",
+          "label": "Sport",
+          "topicId": "sports",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-sports.football-5",
+          "url": "https://www.theguardian.com/football/rss",
+          "label": "Football",
+          "topicId": "sports.football",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-entertainment-6",
+          "url": "https://www.theguardian.com/uk/culture/rss",
+          "label": "Culture",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-health-7",
+          "url": "https://www.theguardian.com/society/health/rss",
+          "label": "Health",
+          "topicId": "health",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-politics-8",
+          "url": "https://www.theguardian.com/politics/rss",
+          "label": "Politics",
+          "topicId": "politics",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-environment-9",
+          "url": "https://www.theguardian.com/environment/rss",
+          "label": "Environment",
+          "topicId": "environment",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-travel-10",
+          "url": "https://www.theguardian.com/uk/travel/rss",
+          "label": "Travel",
+          "topicId": "travel",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-food-11",
+          "url": "https://www.theguardian.com/food/rss",
+          "label": "Food",
+          "topicId": "food",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-technology-12",
+          "url": "https://www.theguardian.com/uk/technology/rss",
+          "label": "Technology",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-business-13",
+          "url": "https://www.theguardian.com/uk/money/rss",
+          "label": "Money",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-top-stories-14",
+          "url": "https://www.theguardian.com/us-news/rss",
+          "label": "US",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-sports.rugby-15",
+          "url": "https://www.theguardian.com/sport/rugby-union/rss",
+          "label": "Rugby Union",
+          "topicId": "sports.rugby",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-sports-16",
+          "url": "https://www.theguardian.com/us/sport/rss",
+          "label": "US Sport",
+          "topicId": "sports",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-finance.economy-17",
+          "url": "https://www.theguardian.com/business/economics/rss",
+          "label": "Economics",
+          "topicId": "finance.economy",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "guardian-finance.personal-18",
+          "url": "https://www.theguardian.com/money/rss",
+          "label": "Money",
+          "topicId": "finance.personal",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 121
+    },
+    {
+      "id": "thehill",
+      "name": "The Hill",
+      "siteUrl": "https://thehill.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "thehill-politics-0",
+          "url": "https://thehill.com/rss/syndicator/19110",
+          "label": "All",
+          "topicId": "politics",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 122
+    },
+    {
+      "id": "thehindu",
+      "name": "The Hindu",
+      "siteUrl": "https://www.thehindu.com",
+      "country": "IN",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "thehindu-top-stories-0",
+          "url": "https://www.thehindu.com/news/feeder/default.rss",
+          "label": "News",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 123
+    },
+    {
+      "id": "thr",
+      "name": "The Hollywood Reporter",
+      "siteUrl": "https://www.hollywoodreporter.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "thr-entertainment-0",
+          "url": "https://www.hollywoodreporter.com/feed/",
+          "label": "All",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 124
+    },
+    {
+      "id": "independent",
+      "name": "The Independent",
+      "siteUrl": "https://www.independent.co.uk",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "independent-world-0",
+          "url": "https://www.independent.co.uk/news/world/rss",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "independent-top-stories-1",
+          "url": "https://www.independent.co.uk/news/uk/rss",
+          "label": "UK",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 125
+    },
+    {
+      "id": "theintercept",
+      "name": "The Intercept",
+      "siteUrl": "https://theintercept.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "theintercept-politics-0",
+          "url": "https://theintercept.com/feed/?rss",
+          "label": "All",
+          "topicId": "politics",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 126
+    },
+    {
+      "id": "irishtimes",
+      "name": "The Irish Times",
+      "siteUrl": "https://www.irishtimes.com",
+      "country": "IE",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "irishtimes-world-0",
+          "url": "https://www.irishtimes.com/cmlink/news-1.1319192",
+          "label": "All",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 127
+    },
+    {
+      "id": "japantimes",
+      "name": "The Japan Times",
+      "siteUrl": "https://www.japantimes.co.jp",
+      "country": "JP",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "japantimes-world-0",
+          "url": "https://www.japantimes.co.jp/feed/",
+          "label": "All",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 128
+    },
+    {
+      "id": "thekitchn",
+      "name": "The Kitchn",
+      "siteUrl": "https://www.thekitchn.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "thekitchn-food-0",
+          "url": "https://www.thekitchn.com/main.rss",
+          "label": "All",
+          "topicId": "food",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 129
+    },
+    {
+      "id": "themarkup",
+      "name": "The Markup",
+      "siteUrl": "https://themarkup.org",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "themarkup-technology-0",
+          "url": "https://themarkup.org/feeds/rss.xml",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 130
+    },
+    {
+      "id": "fool",
+      "name": "The Motley Fool",
+      "siteUrl": "https://www.fool.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "fool-finance.personal-0",
+          "url": "https://www.fool.com/feeds/index.aspx",
+          "label": "Investing",
+          "topicId": "finance.personal",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 131
+    },
+    {
+      "id": "thenextweb",
+      "name": "The Next Web",
+      "siteUrl": "https://thenextweb.com",
+      "country": "NL",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "thenextweb-technology-0",
+          "url": "https://thenextweb.com/feed",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 132
+    },
+    {
+      "id": "theregister",
+      "name": "The Register",
+      "siteUrl": "https://www.theregister.com",
+      "country": "GB",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "theregister-technology-0",
+          "url": "https://www.theregister.com/headlines.atom",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 133
+    },
+    {
+      "id": "straitstimes",
+      "name": "The Straits Times",
+      "siteUrl": "https://www.straitstimes.com",
+      "country": "SG",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "straitstimes-world-0",
+          "url": "https://www.straitstimes.com/news/world/rss.xml",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 134
+    },
+    {
+      "id": "toi",
+      "name": "The Times of India",
+      "siteUrl": "https://timesofindia.indiatimes.com",
+      "country": "IN",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "toi-top-stories-0",
+          "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "toi-world-1",
+          "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+          "label": "World",
+          "topicId": "world",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 135
+    },
+    {
+      "id": "the-verge",
+      "name": "The Verge",
+      "siteUrl": "https://www.theverge.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "the-verge-technology-0",
+          "url": "https://www.theverge.com/rss/index.xml",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "the-verge-technology.ai-1",
+          "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+          "label": "AI",
+          "topicId": "technology.ai",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "the-verge-technology.gadgets-2",
+          "url": "https://www.theverge.com/rss/reviews/index.xml",
+          "label": "Reviews",
+          "topicId": "technology.gadgets",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "the-verge-science-3",
+          "url": "https://www.theverge.com/rss/science/index.xml",
+          "label": "Science",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 136
+    },
+    {
+      "id": "wsj-gn",
+      "name": "The Wall Street Journal (via Google News)",
+      "siteUrl": "https://www.wsj.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "wsj-gn-business-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:wsj.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Business",
+          "topicId": "business",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 137
+    },
+    {
+      "id": "wapo-gn",
+      "name": "The Washington Post (via Google News)",
+      "siteUrl": "https://www.washingtonpost.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "wapo-gn-top-stories-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:washingtonpost.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 138
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "siteUrl": "https://time.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "time-top-stories-0",
+          "url": "https://time.com/feed/",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 139
+    },
+    {
+      "id": "tomshardware",
+      "name": "Tom's Hardware",
+      "siteUrl": "https://www.tomshardware.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "tomshardware-technology.gadgets-0",
+          "url": "https://www.tomshardware.com/feeds/all",
+          "label": "All",
+          "topicId": "technology.gadgets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 140
+    },
+    {
+      "id": "universetoday",
+      "name": "Universe Today",
+      "siteUrl": "https://www.universetoday.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "universetoday-science-0",
+          "url": "https://www.universetoday.com/feed/",
+          "label": "All",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 141
+    },
+    {
+      "id": "usatoday-gn",
+      "name": "USA Today (via Google News)",
+      "siteUrl": "https://www.usatoday.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "usatoday-gn-top-stories-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:usatoday.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Top",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 142
+    },
+    {
+      "id": "variety",
+      "name": "Variety",
+      "siteUrl": "https://variety.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "variety-entertainment-0",
+          "url": "https://variety.com/feed/",
+          "label": "All",
+          "topicId": "entertainment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 143
+    },
+    {
+      "id": "vox",
+      "name": "Vox",
+      "siteUrl": "https://www.vox.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "vox-top-stories-0",
+          "url": "https://www.vox.com/rss/index.xml",
+          "label": "All",
+          "topicId": "top-stories",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 144
+    },
+    {
+      "id": "wired",
+      "name": "Wired",
+      "siteUrl": "https://www.wired.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "wired-technology-0",
+          "url": "https://www.wired.com/feed/rss",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "wired-technology.ai-1",
+          "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+          "label": "AI",
+          "topicId": "technology.ai",
+          "language": "en",
+          "enabled": true
+        },
+        {
+          "id": "wired-science-2",
+          "url": "https://www.wired.com/feed/category/science/latest/rss",
+          "label": "Science",
+          "topicId": "science",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 145
+    },
+    {
+      "id": "yahoofin-gn",
+      "name": "Yahoo Finance (via Google News)",
+      "siteUrl": "https://finance.yahoo.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "feeds": [
+        {
+          "id": "yahoofin-gn-finance-0",
+          "url": "https://news.google.com/rss/search?q=when:24h+site:finance.yahoo.com&hl=en-US&gl=US&ceid=US:en",
+          "label": "Finance",
+          "topicId": "finance",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 146
+    },
+    {
+      "id": "yahoosports",
+      "name": "Yahoo Sports",
+      "siteUrl": "https://sports.yahoo.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "yahoosports-sports-0",
+          "url": "https://sports.yahoo.com/rss/",
+          "label": "All",
+          "topicId": "sports",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 147
+    },
+    {
+      "id": "yahoo-mlb",
+      "name": "Yahoo Sports MLB",
+      "siteUrl": "https://sports.yahoo.com/mlb",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "yahoo-mlb-sports.baseball-0",
+          "url": "https://sports.yahoo.com/mlb/rss/",
+          "label": "MLB",
+          "topicId": "sports.baseball",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 148
+    },
+    {
+      "id": "yahoo-nba",
+      "name": "Yahoo Sports NBA",
+      "siteUrl": "https://sports.yahoo.com/nba",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "yahoo-nba-sports.basketball-0",
+          "url": "https://sports.yahoo.com/nba/rss/",
+          "label": "NBA",
+          "topicId": "sports.basketball",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 149
+    },
+    {
+      "id": "yahoo-nfl",
+      "name": "Yahoo Sports NFL",
+      "siteUrl": "https://sports.yahoo.com/nfl",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "yahoo-nfl-sports.nfl-0",
+          "url": "https://sports.yahoo.com/nfl/rss/",
+          "label": "NFL",
+          "topicId": "sports.nfl",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 150
+    },
+    {
+      "id": "yahoo-nhl",
+      "name": "Yahoo Sports NHL",
+      "siteUrl": "https://sports.yahoo.com/nhl",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "yahoo-nhl-sports.hockey-0",
+          "url": "https://sports.yahoo.com/nhl/rss/",
+          "label": "NHL",
+          "topicId": "sports.hockey",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 151
+    },
+    {
+      "id": "yale360",
+      "name": "Yale E360",
+      "siteUrl": "https://e360.yale.edu",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "yale360-environment-0",
+          "url": "https://e360.yale.edu/feed.xml",
+          "label": "All",
+          "topicId": "environment",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 152
+    },
+    {
+      "id": "zdnet",
+      "name": "ZDNet",
+      "siteUrl": "https://www.zdnet.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": true,
+      "feeds": [
+        {
+          "id": "zdnet-technology-0",
+          "url": "https://www.zdnet.com/news/rss.xml",
+          "label": "All",
+          "topicId": "technology",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 153
+    }
+  ]
+}
