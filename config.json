@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-15T14:53:25.756Z",
+  "updatedAt": "2026-09-17T04:49:39.072Z",
   "app": {
     "forceUpdate": {
       "enabled": false,
@@ -189,6 +189,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "fourohfour-technology-0",
@@ -202,6 +207,31 @@
       "order": 0
     },
     {
+      "id": "9to5mac",
+      "name": "9to5Mac",
+      "siteUrl": "https://9to5mac.com",
+      "country": "US",
+      "language": "en",
+      "enabled": true,
+      "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "description"
+      },
+      "feeds": [
+        {
+          "id": "9to5mac-technology.gadgets-0",
+          "url": "https://9to5mac.com/feed/",
+          "label": "All",
+          "topicId": "technology.gadgets",
+          "language": "en",
+          "enabled": true
+        }
+      ],
+      "order": 1
+    },
+    {
       "id": "abc-au",
       "name": "ABC News (AU)",
       "siteUrl": "https://www.abc.net.au",
@@ -209,6 +239,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "abc-au-top-stories-0",
@@ -219,7 +254,7 @@
           "enabled": true
         }
       ],
-      "order": 1
+      "order": 2
     },
     {
       "id": "abcnews-us",
@@ -229,6 +264,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "abcnews-us-top-stories-0",
@@ -239,7 +279,7 @@
           "enabled": true
         }
       ],
-      "order": 2
+      "order": 3
     },
     {
       "id": "aljazeera",
@@ -249,6 +289,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "aljazeera-world-0",
@@ -259,7 +304,7 @@
           "enabled": true
         }
       ],
-      "order": 3
+      "order": 4
     },
     {
       "id": "androidauthority",
@@ -269,6 +314,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "androidauthority-technology.gadgets-0",
@@ -279,7 +329,7 @@
           "enabled": true
         }
       ],
-      "order": 4
+      "order": 5
     },
     {
       "id": "androidpolice",
@@ -289,6 +339,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "androidpolice-technology.gadgets-0",
@@ -299,7 +354,7 @@
           "enabled": true
         }
       ],
-      "order": 5
+      "order": 6
     },
     {
       "id": "ars-technica",
@@ -309,6 +364,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "ars-technica-technology-0",
@@ -335,7 +395,7 @@
           "enabled": true
         }
       ],
-      "order": 6
+      "order": 7
     },
     {
       "id": "ap-gn",
@@ -345,6 +405,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "ap-gn-top-stories-0",
@@ -355,7 +420,7 @@
           "enabled": true
         }
       ],
-      "order": 7
+      "order": 8
     },
     {
       "id": "atlasobscura",
@@ -365,6 +430,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "atlasobscura-travel-0",
@@ -375,7 +445,7 @@
           "enabled": true
         }
       ],
-      "order": 8
+      "order": 9
     },
     {
       "id": "autosport",
@@ -385,6 +455,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "autosport-sports.f1-0",
@@ -395,7 +470,7 @@
           "enabled": true
         }
       ],
-      "order": 9
+      "order": 10
     },
     {
       "id": "axios",
@@ -405,6 +480,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "axios-top-stories-0",
@@ -415,7 +495,7 @@
           "enabled": true
         }
       ],
-      "order": 10
+      "order": 11
     },
     {
       "id": "barrons-gn",
@@ -425,6 +505,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "barrons-gn-finance-0",
@@ -435,7 +520,7 @@
           "enabled": true
         }
       ],
-      "order": 11
+      "order": 12
     },
     {
       "id": "bbc",
@@ -445,6 +530,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "bbc-world-0",
@@ -503,7 +593,7 @@
           "enabled": true
         }
       ],
-      "order": 12
+      "order": 13
     },
     {
       "id": "bbc-sport",
@@ -513,6 +603,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "bbc-sport-sports-0",
@@ -571,7 +666,7 @@
           "enabled": true
         }
       ],
-      "order": 13
+      "order": 14
     },
     {
       "id": "billboard",
@@ -581,6 +676,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "billboard-entertainment-0",
@@ -591,7 +691,7 @@
           "enabled": true
         }
       ],
-      "order": 14
+      "order": 15
     },
     {
       "id": "bitcoinmag",
@@ -601,6 +701,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "bitcoinmag-finance.crypto-0",
@@ -611,7 +716,7 @@
           "enabled": true
         }
       ],
-      "order": 15
+      "order": 16
     },
     {
       "id": "br-gn",
@@ -621,6 +726,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "br-gn-sports-0",
@@ -631,7 +741,7 @@
           "enabled": true
         }
       ],
-      "order": 16
+      "order": 17
     },
     {
       "id": "bleepingcomputer",
@@ -641,6 +751,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "bleepingcomputer-technology-0",
@@ -651,7 +766,7 @@
           "enabled": true
         }
       ],
-      "order": 17
+      "order": 18
     },
     {
       "id": "bloomberg-gn",
@@ -661,6 +776,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "bloomberg-gn-business-0",
@@ -671,7 +791,7 @@
           "enabled": true
         }
       ],
-      "order": 18
+      "order": 19
     },
     {
       "id": "bloomberg",
@@ -681,6 +801,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "bloomberg-business-0",
@@ -715,7 +840,7 @@
           "enabled": true
         }
       ],
-      "order": 19
+      "order": 20
     },
     {
       "id": "businessinsider",
@@ -725,6 +850,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "businessinsider-business-0",
@@ -735,7 +865,7 @@
           "enabled": true
         }
       ],
-      "order": 20
+      "order": 21
     },
     {
       "id": "carbonbrief",
@@ -745,6 +875,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "carbonbrief-environment-0",
@@ -755,7 +890,7 @@
           "enabled": true
         }
       ],
-      "order": 21
+      "order": 22
     },
     {
       "id": "cbc",
@@ -765,6 +900,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "cbc-world-0",
@@ -783,7 +923,7 @@
           "enabled": true
         }
       ],
-      "order": 22
+      "order": 23
     },
     {
       "id": "cbsnews",
@@ -793,6 +933,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "cbsnews-top-stories-0",
@@ -811,7 +956,7 @@
           "enabled": true
         }
       ],
-      "order": 23
+      "order": 24
     },
     {
       "id": "cbssports",
@@ -821,6 +966,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "cbssports-sports-0",
@@ -831,7 +981,7 @@
           "enabled": true
         }
       ],
-      "order": 24
+      "order": 25
     },
     {
       "id": "cnbc",
@@ -841,6 +991,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "cnbc-business-0",
@@ -867,7 +1022,7 @@
           "enabled": true
         }
       ],
-      "order": 25
+      "order": 26
     },
     {
       "id": "cnn",
@@ -877,6 +1032,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "cnn-top-stories-0",
@@ -895,7 +1055,7 @@
           "enabled": true
         }
       ],
-      "order": 26
+      "order": 27
     },
     {
       "id": "coindesk",
@@ -905,6 +1065,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "coindesk-business-0",
@@ -923,7 +1088,7 @@
           "enabled": true
         }
       ],
-      "order": 27
+      "order": 28
     },
     {
       "id": "cointelegraph",
@@ -933,6 +1098,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "cointelegraph-business-0",
@@ -951,7 +1121,7 @@
           "enabled": true
         }
       ],
-      "order": 28
+      "order": 29
     },
     {
       "id": "collider",
@@ -961,6 +1131,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "collider-entertainment-0",
@@ -971,7 +1146,7 @@
           "enabled": true
         }
       ],
-      "order": 29
+      "order": 30
     },
     {
       "id": "colossal",
@@ -981,6 +1156,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "colossal-design-0",
@@ -991,7 +1171,7 @@
           "enabled": true
         }
       ],
-      "order": 30
+      "order": 31
     },
     {
       "id": "consequence",
@@ -1001,6 +1181,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "consequence-entertainment-0",
@@ -1011,7 +1196,7 @@
           "enabled": true
         }
       ],
-      "order": 31
+      "order": 32
     },
     {
       "id": "core77",
@@ -1021,6 +1206,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "core77-design-0",
@@ -1031,7 +1221,7 @@
           "enabled": true
         }
       ],
-      "order": 32
+      "order": 33
     },
     {
       "id": "cricbuzz-gn",
@@ -1041,6 +1231,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "cricbuzz-gn-sports.cricket-0",
@@ -1051,7 +1246,7 @@
           "enabled": true
         }
       ],
-      "order": 33
+      "order": 34
     },
     {
       "id": "deadline",
@@ -1061,6 +1256,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "deadline-entertainment-0",
@@ -1071,7 +1271,7 @@
           "enabled": true
         }
       ],
-      "order": 34
+      "order": 35
     },
     {
       "id": "decrypt",
@@ -1081,6 +1281,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "decrypt-finance.crypto-0",
@@ -1091,7 +1296,7 @@
           "enabled": true
         }
       ],
-      "order": 35
+      "order": 36
     },
     {
       "id": "designmilk",
@@ -1101,6 +1306,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "designmilk-design-0",
@@ -1111,7 +1321,7 @@
           "enabled": true
         }
       ],
-      "order": 36
+      "order": 37
     },
     {
       "id": "dw",
@@ -1121,6 +1331,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "dw-world-0",
@@ -1131,7 +1346,7 @@
           "enabled": true
         }
       ],
-      "order": 37
+      "order": 38
     },
     {
       "id": "dezeen",
@@ -1141,6 +1356,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "dezeen-design-0",
@@ -1151,7 +1371,7 @@
           "enabled": true
         }
       ],
-      "order": 38
+      "order": 39
     },
     {
       "id": "earthsky",
@@ -1161,6 +1381,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "earthsky-science-0",
@@ -1171,7 +1396,7 @@
           "enabled": true
         }
       ],
-      "order": 39
+      "order": 40
     },
     {
       "id": "eater",
@@ -1181,6 +1406,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "eater-food-0",
@@ -1191,7 +1421,7 @@
           "enabled": true
         }
       ],
-      "order": 40
+      "order": 41
     },
     {
       "id": "engadget",
@@ -1201,6 +1431,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "author",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "engadget-technology-0",
@@ -1211,7 +1446,7 @@
           "enabled": true
         }
       ],
-      "order": 41
+      "order": 42
     },
     {
       "id": "espn-nba-gn",
@@ -1221,6 +1456,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "espn-nba-gn-sports.basketball-0",
@@ -1231,7 +1471,7 @@
           "enabled": true
         }
       ],
-      "order": 42
+      "order": 43
     },
     {
       "id": "cricinfo",
@@ -1241,6 +1481,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "cricinfo-sports.cricket-0",
@@ -1251,7 +1496,7 @@
           "enabled": true
         }
       ],
-      "order": 43
+      "order": 44
     },
     {
       "id": "eurogamer",
@@ -1261,6 +1506,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "eurogamer-gaming-0",
@@ -1271,7 +1521,7 @@
           "enabled": true
         }
       ],
-      "order": 44
+      "order": 45
     },
     {
       "id": "euronews",
@@ -1281,6 +1531,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "euronews-world-0",
@@ -1291,7 +1546,7 @@
           "enabled": true
         }
       ],
-      "order": 45
+      "order": 46
     },
     {
       "id": "ft-gn",
@@ -1301,6 +1556,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "ft-gn-business-0",
@@ -1319,7 +1579,7 @@
           "enabled": true
         }
       ],
-      "order": 46
+      "order": 47
     },
     {
       "id": "ft",
@@ -1329,6 +1589,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "ft-business-0",
@@ -1339,7 +1604,7 @@
           "enabled": true
         }
       ],
-      "order": 47
+      "order": 48
     },
     {
       "id": "finextra",
@@ -1349,6 +1614,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "finextra-finance-0",
@@ -1359,7 +1629,7 @@
           "enabled": true
         }
       ],
-      "order": 48
+      "order": 49
     },
     {
       "id": "forbes",
@@ -1369,6 +1639,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "forbes-business-0",
@@ -1379,7 +1654,7 @@
           "enabled": true
         }
       ],
-      "order": 49
+      "order": 50
     },
     {
       "id": "fortune",
@@ -1389,6 +1664,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "fortune-business-0",
@@ -1399,7 +1679,7 @@
           "enabled": true
         }
       ],
-      "order": 50
+      "order": 51
     },
     {
       "id": "france24",
@@ -1409,6 +1689,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "france24-world-0",
@@ -1419,7 +1704,7 @@
           "enabled": true
         }
       ],
-      "order": 51
+      "order": 52
     },
     {
       "id": "gamespot",
@@ -1429,6 +1714,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "gamespot-gaming-0",
@@ -1439,7 +1729,7 @@
           "enabled": true
         }
       ],
-      "order": 52
+      "order": 53
     },
     {
       "id": "gamesradar",
@@ -1449,6 +1739,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "gamesradar-gaming-0",
@@ -1459,7 +1754,7 @@
           "enabled": true
         }
       ],
-      "order": 53
+      "order": 54
     },
     {
       "id": "gizmodo",
@@ -1469,6 +1764,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "gizmodo-technology-0",
@@ -1479,7 +1779,7 @@
           "enabled": true
         }
       ],
-      "order": 54
+      "order": 55
     },
     {
       "id": "goal-gn",
@@ -1489,6 +1789,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "goal-gn-sports.football-0",
@@ -1499,7 +1804,7 @@
           "enabled": true
         }
       ],
-      "order": 55
+      "order": 56
     },
     {
       "id": "golf-gn",
@@ -1509,6 +1814,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "golf-gn-sports.golf-0",
@@ -1519,7 +1829,7 @@
           "enabled": true
         }
       ],
-      "order": 56
+      "order": 57
     },
     {
       "id": "googlenews",
@@ -1529,6 +1839,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "googlenews-top-stories-0",
@@ -1539,7 +1854,7 @@
           "enabled": true
         }
       ],
-      "order": 57
+      "order": 58
     },
     {
       "id": "grist",
@@ -1549,6 +1864,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "grist-environment-0",
@@ -1559,7 +1879,7 @@
           "enabled": true
         }
       ],
-      "order": 58
+      "order": 59
     },
     {
       "id": "hackernews",
@@ -1569,6 +1889,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "hackernews-technology-0",
@@ -1579,7 +1904,7 @@
           "enabled": true
         }
       ],
-      "order": 59
+      "order": 60
     },
     {
       "id": "ign",
@@ -1589,6 +1914,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "ign-gaming-0",
@@ -1599,7 +1929,7 @@
           "enabled": true
         }
       ],
-      "order": 60
+      "order": 61
     },
     {
       "id": "insideclimate",
@@ -1609,6 +1939,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "insideclimate-environment-0",
@@ -1619,7 +1954,7 @@
           "enabled": true
         }
       ],
-      "order": 61
+      "order": 62
     },
     {
       "id": "investing-gn",
@@ -1629,6 +1964,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "investing-gn-finance.markets-0",
@@ -1639,7 +1979,7 @@
           "enabled": true
         }
       ],
-      "order": 62
+      "order": 63
     },
     {
       "id": "kiplinger-gn",
@@ -1649,6 +1989,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "kiplinger-gn-finance.personal-0",
@@ -1659,7 +2004,7 @@
           "enabled": true
         }
       ],
-      "order": 63
+      "order": 64
     },
     {
       "id": "kotaku",
@@ -1669,6 +2014,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "kotaku-gaming-0",
@@ -1679,7 +2029,7 @@
           "enabled": true
         }
       ],
-      "order": 64
+      "order": 65
     },
     {
       "id": "krebs",
@@ -1689,6 +2039,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "krebs-technology-0",
@@ -1699,7 +2054,7 @@
           "enabled": true
         }
       ],
-      "order": 65
+      "order": 66
     },
     {
       "id": "livescience",
@@ -1709,6 +2064,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "livescience-science-0",
@@ -1719,7 +2079,7 @@
           "enabled": true
         }
       ],
-      "order": 66
+      "order": 67
     },
     {
       "id": "latimes",
@@ -1729,6 +2089,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "latimes-top-stories-0",
@@ -1739,7 +2104,7 @@
           "enabled": true
         }
       ],
-      "order": 67
+      "order": 68
     },
     {
       "id": "macrumors",
@@ -1749,6 +2114,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "macrumors-technology.gadgets-0",
@@ -1759,7 +2129,7 @@
           "enabled": true
         }
       ],
-      "order": 68
+      "order": 69
     },
     {
       "id": "marketwatch",
@@ -1769,6 +2139,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "marketwatch-business-0",
@@ -1787,7 +2162,7 @@
           "enabled": true
         }
       ],
-      "order": 69
+      "order": 70
     },
     {
       "id": "mashable",
@@ -1797,6 +2172,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "none",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "mashable-technology-0",
@@ -1807,7 +2187,7 @@
           "enabled": true
         }
       ],
-      "order": 70
+      "order": 71
     },
     {
       "id": "medpagetoday",
@@ -1817,6 +2197,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "medpagetoday-health-0",
@@ -1827,7 +2212,7 @@
           "enabled": true
         }
       ],
-      "order": 71
+      "order": 72
     },
     {
       "id": "techreview",
@@ -1837,6 +2222,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "techreview-technology-0",
@@ -1847,7 +2237,7 @@
           "enabled": true
         }
       ],
-      "order": 72
+      "order": 73
     },
     {
       "id": "mlbtr",
@@ -1857,6 +2247,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "mlbtr-sports.baseball-0",
@@ -1867,7 +2262,7 @@
           "enabled": true
         }
       ],
-      "order": 73
+      "order": 74
     },
     {
       "id": "mongabay",
@@ -1877,6 +2272,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "mongabay-environment-0",
@@ -1887,7 +2287,7 @@
           "enabled": true
         }
       ],
-      "order": 74
+      "order": 75
     },
     {
       "id": "motorsport",
@@ -1897,6 +2297,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "motorsport-sports.f1-0",
@@ -1907,7 +2312,7 @@
           "enabled": true
         }
       ],
-      "order": 75
+      "order": 76
     },
     {
       "id": "nasa",
@@ -1917,6 +2322,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "nasa-science-0",
@@ -1927,7 +2337,7 @@
           "enabled": true
         }
       ],
-      "order": 76
+      "order": 77
     },
     {
       "id": "nature",
@@ -1937,6 +2347,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "nature-science-0",
@@ -1947,7 +2362,7 @@
           "enabled": true
         }
       ],
-      "order": 77
+      "order": 78
     },
     {
       "id": "nbcnews",
@@ -1957,6 +2372,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "nbcnews-world-0",
@@ -1967,7 +2387,7 @@
           "enabled": true
         }
       ],
-      "order": 78
+      "order": 79
     },
     {
       "id": "ndtv",
@@ -1977,6 +2397,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "none",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "ndtv-top-stories-0",
@@ -1987,7 +2412,7 @@
           "enabled": true
         }
       ],
-      "order": 79
+      "order": 80
     },
     {
       "id": "nerdwallet",
@@ -1997,6 +2422,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "nerdwallet-finance.personal-0",
@@ -2007,7 +2437,7 @@
           "enabled": true
         }
       ],
-      "order": 80
+      "order": 81
     },
     {
       "id": "npr",
@@ -2017,6 +2447,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "npr-top-stories-0",
@@ -2051,7 +2486,7 @@
           "enabled": true
         }
       ],
-      "order": 81
+      "order": 82
     },
     {
       "id": "nyt",
@@ -2061,6 +2496,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "nyt-world-0",
@@ -2143,7 +2583,7 @@
           "enabled": true
         }
       ],
-      "order": 82
+      "order": 83
     },
     {
       "id": "pbs",
@@ -2153,6 +2593,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "pbs-top-stories-0",
@@ -2163,7 +2608,7 @@
           "enabled": true
         }
       ],
-      "order": 83
+      "order": 84
     },
     {
       "id": "pcgamer",
@@ -2173,6 +2618,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "pcgamer-gaming-0",
@@ -2183,7 +2633,7 @@
           "enabled": true
         }
       ],
-      "order": 84
+      "order": 85
     },
     {
       "id": "physorg",
@@ -2193,6 +2643,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "physorg-science-0",
@@ -2203,7 +2658,7 @@
           "enabled": true
         }
       ],
-      "order": 85
+      "order": 86
     },
     {
       "id": "pitchfork",
@@ -2213,6 +2668,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "pitchfork-entertainment-0",
@@ -2223,7 +2683,7 @@
           "enabled": true
         }
       ],
-      "order": 86
+      "order": 87
     },
     {
       "id": "polygon",
@@ -2233,6 +2693,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "polygon-gaming-0",
@@ -2243,7 +2708,7 @@
           "enabled": true
         }
       ],
-      "order": 87
+      "order": 88
     },
     {
       "id": "pft",
@@ -2253,6 +2718,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "pft-sports.nfl-0",
@@ -2263,7 +2733,7 @@
           "enabled": true
         }
       ],
-      "order": 88
+      "order": 89
     },
     {
       "id": "propublica",
@@ -2273,6 +2743,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "propublica-politics-0",
@@ -2283,7 +2758,7 @@
           "enabled": true
         }
       ],
-      "order": 89
+      "order": 90
     },
     {
       "id": "quanta",
@@ -2293,6 +2768,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "quanta-science-0",
@@ -2303,7 +2783,7 @@
           "enabled": true
         }
       ],
-      "order": 90
+      "order": 91
     },
     {
       "id": "restofworld",
@@ -2313,6 +2793,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "restofworld-technology-0",
@@ -2323,7 +2808,7 @@
           "enabled": true
         }
       ],
-      "order": 91
+      "order": 92
     },
     {
       "id": "reuters-gn",
@@ -2333,6 +2818,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "reuters-gn-world-0",
@@ -2343,7 +2833,7 @@
           "enabled": true
         }
       ],
-      "order": 92
+      "order": 93
     },
     {
       "id": "rps",
@@ -2353,6 +2843,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "rps-gaming-0",
@@ -2363,7 +2858,7 @@
           "enabled": true
         }
       ],
-      "order": 93
+      "order": 94
     },
     {
       "id": "rollingstone",
@@ -2373,6 +2868,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "rollingstone-entertainment-0",
@@ -2383,7 +2883,7 @@
           "enabled": true
         }
       ],
-      "order": 94
+      "order": 95
     },
     {
       "id": "sbnation-nba",
@@ -2393,6 +2893,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "sbnation-nba-sports.basketball-0",
@@ -2403,7 +2908,7 @@
           "enabled": true
         }
       ],
-      "order": 95
+      "order": 96
     },
     {
       "id": "sbnation-nfl",
@@ -2413,6 +2918,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "sbnation-nfl-sports.nfl-0",
@@ -2423,7 +2933,7 @@
           "enabled": true
         }
       ],
-      "order": 96
+      "order": 97
     },
     {
       "id": "sbnation-nhl",
@@ -2433,6 +2943,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "sbnation-nhl-sports.hockey-0",
@@ -2443,7 +2958,7 @@
           "enabled": true
         }
       ],
-      "order": 97
+      "order": 98
     },
     {
       "id": "sciencedaily",
@@ -2453,6 +2968,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "sciencedaily-science-0",
@@ -2463,7 +2983,7 @@
           "enabled": true
         }
       ],
-      "order": 98
+      "order": 99
     },
     {
       "id": "sciam",
@@ -2473,6 +2993,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "sciam-science-0",
@@ -2483,7 +3008,7 @@
           "enabled": true
         }
       ],
-      "order": 99
+      "order": 100
     },
     {
       "id": "seekingalpha",
@@ -2493,6 +3018,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "seekingalpha-business-0",
@@ -2511,7 +3041,7 @@
           "enabled": true
         }
       ],
-      "order": 100
+      "order": 101
     },
     {
       "id": "semafor",
@@ -2521,6 +3051,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "semafor-top-stories-0",
@@ -2531,7 +3066,7 @@
           "enabled": true
         }
       ],
-      "order": 101
+      "order": 102
     },
     {
       "id": "skynews",
@@ -2541,6 +3076,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "skynews-world-0",
@@ -2575,7 +3115,7 @@
           "enabled": true
         }
       ],
-      "order": 102
+      "order": 103
     },
     {
       "id": "skysports",
@@ -2585,6 +3125,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "skysports-sports-0",
@@ -2611,7 +3156,7 @@
           "enabled": true
         }
       ],
-      "order": 103
+      "order": 104
     },
     {
       "id": "slashdot",
@@ -2621,6 +3166,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "slashdot-technology-0",
@@ -2631,7 +3181,7 @@
           "enabled": true
         }
       ],
-      "order": 104
+      "order": 105
     },
     {
       "id": "smashing",
@@ -2641,6 +3191,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "author",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "smashing-design-0",
@@ -2651,7 +3206,7 @@
           "enabled": true
         }
       ],
-      "order": 105
+      "order": 106
     },
     {
       "id": "scmp",
@@ -2661,6 +3216,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "scmp-world-0",
@@ -2671,7 +3231,7 @@
           "enabled": true
         }
       ],
-      "order": 106
+      "order": 107
     },
     {
       "id": "space",
@@ -2681,6 +3241,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "space-science-0",
@@ -2691,7 +3256,7 @@
           "enabled": true
         }
       ],
-      "order": 107
+      "order": 108
     },
     {
       "id": "sportskeeda",
@@ -2701,6 +3266,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "sportskeeda-sports.cricket-0",
@@ -2711,7 +3281,7 @@
           "enabled": true
         }
       ],
-      "order": 108
+      "order": 109
     },
     {
       "id": "statnews",
@@ -2721,6 +3291,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "statnews-health-0",
@@ -2731,7 +3306,7 @@
           "enabled": true
         }
       ],
-      "order": 109
+      "order": 110
     },
     {
       "id": "techcrunch",
@@ -2741,6 +3316,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "techcrunch-technology-0",
@@ -2759,7 +3339,7 @@
           "enabled": true
         }
       ],
-      "order": 110
+      "order": 111
     },
     {
       "id": "techradar",
@@ -2769,6 +3349,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "techradar-technology-0",
@@ -2779,7 +3364,7 @@
           "enabled": true
         }
       ],
-      "order": 111
+      "order": 112
     },
     {
       "id": "tennis-gn",
@@ -2789,6 +3374,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "tennis-gn-sports.tennis-0",
@@ -2799,7 +3389,7 @@
           "enabled": true
         }
       ],
-      "order": 112
+      "order": 113
     },
     {
       "id": "athletic-gn",
@@ -2809,6 +3399,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "athletic-gn-sports-0",
@@ -2819,7 +3414,7 @@
           "enabled": true
         }
       ],
-      "order": 113
+      "order": 114
     },
     {
       "id": "atlantic",
@@ -2829,6 +3424,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "atlantic-top-stories-0",
@@ -2839,7 +3439,7 @@
           "enabled": true
         }
       ],
-      "order": 114
+      "order": 115
     },
     {
       "id": "theblock",
@@ -2849,6 +3449,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "theblock-business-0",
@@ -2867,7 +3472,7 @@
           "enabled": true
         }
       ],
-      "order": 115
+      "order": 116
     },
     {
       "id": "theconversation",
@@ -2877,6 +3482,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "theconversation-top-stories-0",
@@ -2887,7 +3497,7 @@
           "enabled": true
         }
       ],
-      "order": 116
+      "order": 117
     },
     {
       "id": "thediplomat",
@@ -2897,6 +3507,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "thediplomat-world-0",
@@ -2907,7 +3522,7 @@
           "enabled": true
         }
       ],
-      "order": 117
+      "order": 118
     },
     {
       "id": "economictimes",
@@ -2917,6 +3532,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "economictimes-business-0",
@@ -2927,7 +3547,7 @@
           "enabled": true
         }
       ],
-      "order": 118
+      "order": 119
     },
     {
       "id": "economist",
@@ -2937,6 +3557,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "economist-business-0",
@@ -2963,7 +3588,7 @@
           "enabled": true
         }
       ],
-      "order": 119
+      "order": 120
     },
     {
       "id": "guardian",
@@ -2973,6 +3598,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "guardian-world-0",
@@ -3127,7 +3757,7 @@
           "enabled": true
         }
       ],
-      "order": 120
+      "order": 121
     },
     {
       "id": "thehill",
@@ -3137,6 +3767,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "thehill-politics-0",
@@ -3147,7 +3782,7 @@
           "enabled": true
         }
       ],
-      "order": 121
+      "order": 122
     },
     {
       "id": "thehindu",
@@ -3157,6 +3792,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "thehindu-top-stories-0",
@@ -3167,7 +3807,7 @@
           "enabled": true
         }
       ],
-      "order": 122
+      "order": 123
     },
     {
       "id": "thr",
@@ -3177,6 +3817,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "thr-entertainment-0",
@@ -3187,7 +3832,7 @@
           "enabled": true
         }
       ],
-      "order": 123
+      "order": 124
     },
     {
       "id": "independent",
@@ -3197,6 +3842,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "independent-world-0",
@@ -3215,7 +3865,7 @@
           "enabled": true
         }
       ],
-      "order": 124
+      "order": 125
     },
     {
       "id": "theintercept",
@@ -3225,6 +3875,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "theintercept-politics-0",
@@ -3235,7 +3890,7 @@
           "enabled": true
         }
       ],
-      "order": 125
+      "order": 126
     },
     {
       "id": "irishtimes",
@@ -3245,6 +3900,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "irishtimes-world-0",
@@ -3255,7 +3915,7 @@
           "enabled": true
         }
       ],
-      "order": 126
+      "order": 127
     },
     {
       "id": "japantimes",
@@ -3265,6 +3925,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "japantimes-world-0",
@@ -3275,7 +3940,7 @@
           "enabled": true
         }
       ],
-      "order": 127
+      "order": 128
     },
     {
       "id": "thekitchn",
@@ -3285,6 +3950,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "thekitchn-food-0",
@@ -3295,7 +3965,7 @@
           "enabled": true
         }
       ],
-      "order": 128
+      "order": 129
     },
     {
       "id": "themarkup",
@@ -3305,6 +3975,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "themarkup-technology-0",
@@ -3315,7 +3990,7 @@
           "enabled": true
         }
       ],
-      "order": 129
+      "order": 130
     },
     {
       "id": "fool",
@@ -3325,6 +4000,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "author",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "fool-finance.personal-0",
@@ -3335,7 +4015,7 @@
           "enabled": true
         }
       ],
-      "order": 130
+      "order": 131
     },
     {
       "id": "thenextweb",
@@ -3345,6 +4025,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "thenextweb-technology-0",
@@ -3355,7 +4040,7 @@
           "enabled": true
         }
       ],
-      "order": 131
+      "order": 132
     },
     {
       "id": "theregister",
@@ -3365,6 +4050,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "none",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "theregister-technology-0",
@@ -3375,7 +4065,7 @@
           "enabled": true
         }
       ],
-      "order": 132
+      "order": 133
     },
     {
       "id": "straitstimes",
@@ -3385,6 +4075,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "straitstimes-world-0",
@@ -3395,7 +4090,7 @@
           "enabled": true
         }
       ],
-      "order": 133
+      "order": 134
     },
     {
       "id": "toi",
@@ -3405,6 +4100,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "enclosure",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "toi-top-stories-0",
@@ -3423,7 +4123,7 @@
           "enabled": true
         }
       ],
-      "order": 134
+      "order": 135
     },
     {
       "id": "the-verge",
@@ -3433,6 +4133,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "the-verge-technology-0",
@@ -3467,7 +4172,7 @@
           "enabled": true
         }
       ],
-      "order": 135
+      "order": 136
     },
     {
       "id": "wsj-gn",
@@ -3477,6 +4182,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "wsj-gn-business-0",
@@ -3487,7 +4197,7 @@
           "enabled": true
         }
       ],
-      "order": 136
+      "order": 137
     },
     {
       "id": "wapo-gn",
@@ -3497,6 +4207,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "wapo-gn-top-stories-0",
@@ -3507,7 +4222,7 @@
           "enabled": true
         }
       ],
-      "order": 137
+      "order": 138
     },
     {
       "id": "time",
@@ -3517,6 +4232,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "time-top-stories-0",
@@ -3527,7 +4247,7 @@
           "enabled": true
         }
       ],
-      "order": 138
+      "order": 139
     },
     {
       "id": "tomshardware",
@@ -3537,6 +4257,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "tomshardware-technology.gadgets-0",
@@ -3547,7 +4272,7 @@
           "enabled": true
         }
       ],
-      "order": 139
+      "order": 140
     },
     {
       "id": "universetoday",
@@ -3557,6 +4282,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "universetoday-science-0",
@@ -3567,7 +4297,7 @@
           "enabled": true
         }
       ],
-      "order": 140
+      "order": 141
     },
     {
       "id": "usatoday-gn",
@@ -3577,6 +4307,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "usatoday-gn-top-stories-0",
@@ -3587,7 +4322,7 @@
           "enabled": true
         }
       ],
-      "order": 141
+      "order": 142
     },
     {
       "id": "variety",
@@ -3597,6 +4332,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "variety-entertainment-0",
@@ -3607,7 +4347,7 @@
           "enabled": true
         }
       ],
-      "order": 142
+      "order": 143
     },
     {
       "id": "vox",
@@ -3617,6 +4357,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "author",
+        "content": "atomContent"
+      },
       "feeds": [
         {
           "id": "vox-top-stories-0",
@@ -3627,7 +4372,7 @@
           "enabled": true
         }
       ],
-      "order": 143
+      "order": 144
     },
     {
       "id": "wired",
@@ -3637,6 +4382,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaThumbnail",
+        "author": "dcCreator",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "wired-technology-0",
@@ -3663,7 +4413,7 @@
           "enabled": true
         }
       ],
-      "order": 144
+      "order": 145
     },
     {
       "id": "yahoofin-gn",
@@ -3673,6 +4423,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "yahoofin-gn-finance-0",
@@ -3683,7 +4438,7 @@
           "enabled": true
         }
       ],
-      "order": 145
+      "order": 146
     },
     {
       "id": "yahoosports",
@@ -3693,6 +4448,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "yahoosports-sports-0",
@@ -3703,7 +4463,7 @@
           "enabled": true
         }
       ],
-      "order": 146
+      "order": 147
     },
     {
       "id": "yahoo-mlb",
@@ -3713,6 +4473,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "yahoo-mlb-sports.baseball-0",
@@ -3723,7 +4488,7 @@
           "enabled": true
         }
       ],
-      "order": 147
+      "order": 148
     },
     {
       "id": "yahoo-nba",
@@ -3733,6 +4498,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "yahoo-nba-sports.basketball-0",
@@ -3743,7 +4513,7 @@
           "enabled": true
         }
       ],
-      "order": 148
+      "order": 149
     },
     {
       "id": "yahoo-nfl",
@@ -3753,6 +4523,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "yahoo-nfl-sports.nfl-0",
@@ -3763,7 +4538,7 @@
           "enabled": true
         }
       ],
-      "order": 149
+      "order": 150
     },
     {
       "id": "yahoo-nhl",
@@ -3773,6 +4548,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "contentImage",
+        "author": "dcCreator",
+        "content": "contentEncoded"
+      },
       "feeds": [
         {
           "id": "yahoo-nhl-sports.hockey-0",
@@ -3783,7 +4563,7 @@
           "enabled": true
         }
       ],
-      "order": 150
+      "order": 151
     },
     {
       "id": "yale360",
@@ -3793,6 +4573,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "none",
+        "author": "none",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "yale360-environment-0",
@@ -3803,7 +4588,7 @@
           "enabled": true
         }
       ],
-      "order": 151
+      "order": 152
     },
     {
       "id": "zdnet",
@@ -3813,6 +4598,11 @@
       "language": "en",
       "enabled": true,
       "readerMode": false,
+      "parse": {
+        "image": "mediaContent",
+        "author": "author",
+        "content": "description"
+      },
       "feeds": [
         {
           "id": "zdnet-technology-0",
@@ -3823,7 +4613,7 @@
           "enabled": true
         }
       ],
-      "order": 152
+      "order": 153
     }
   ]
 }
