@@ -10,13 +10,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#F6F0E9; --surface:#FFFDFA; --border:#DDD1C2;
-  --fg:#241C15; --muted:#6E6153; --brand:#C76128; --eyebrow:#6E6153;
+  /* Neutral + terracotta, matching the app (light). */
+  --bg:#F2F2F5; --surface:#FFFFFF; --border:#E0E0E5;
+  --fg:#0A0A0A; --muted:#5C5C5C; --brand:#C76128; --eyebrow:#5C5C5C;
 }
 @media (prefers-color-scheme:dark){
   :root{
-    --bg:#161310; --surface:#211D19; --border:#3E3730;
-    --fg:#F6F0E9; --muted:#B0A695; --brand:#E0743A; --eyebrow:#B0A695;
+    --bg:#0A0A0A; --surface:#1B1B1B; --border:#3A3A3A;
+    --fg:#FAFAFA; --muted:#9E9E9E; --brand:#E0743A; --eyebrow:#9E9E9E;
   }
 }
 *{box-sizing:border-box;}
@@ -28,6 +29,8 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 .wrap{max-width:640px; margin:0 auto; padding:48px 22px 80px;}
+.back{display:inline-block; margin:0 0 22px; font-size:13px; font-weight:600; color:var(--muted);}
+.back:hover{color:var(--brand); text-decoration:none;}
 .eyebrow{
   font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
   color:var(--eyebrow); margin:0 0 10px;
@@ -48,6 +51,8 @@ hr{border:none; border-top:1px solid var(--border); margin:24px 0;}
 </head>
 <body>
 <div class="wrap">
+
+<a class="back" href="index.html">&larr; Back to ClearNews</a>
 
 <p class="eyebrow">Legal</p>
 <h1>Privacy Policy</h1>
@@ -109,7 +114,7 @@ hr{border:none; border-top:1px solid var(--border); margin:24px 0;}
 
 <h2>11. Contact</h2>
 
-<p>Questions about this privacy policy? Email us at <a href="mailto:me.devarshukani@gmail.com">me.devarshukani@gmail.com</a>.</p>
+<p>Questions about this privacy policy? Email us at <a href="mailto:me.devarshukani+cn@gmail.com">me.devarshukani+cn@gmail.com</a>.</p>
 
 <div class="foot">© 2026 ClearNews. All rights reserved.</div>
 
